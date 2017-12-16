@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/top_Button0"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00ffffff"
+            android:text="新闻页一"
+            android:textColor="@color/topTextGrey"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/top_Button1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00ffffff"
+            android:text="新闻页二"
+            android:textColor="@color/topTextGrey"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/top_Button2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00ffffff"
+            android:text="新闻页三"
+            android:textColor="@color/topTextGrey"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/top_Button3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00ffffff"
+            android:text="新闻页四"
+            android:textColor="@color/topTextGrey"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/top_Button4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00ffffff"
+            android:text="新闻页五"
+            android:textColor="@color/topTextGrey"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_below="@+id/rl_wallet"
+        android:layout_marginTop="1dp"
+        android:background="@color/topTextGrey" />
+
+</LinearLayout>
